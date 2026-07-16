@@ -1,0 +1,11 @@
+{
+  "name": "@demonorepo-pnpm/utils",
+  "version": "1.0.0",
+  "description": "Shared utility functions for the demonorepo-pnpm monorepo",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["utils", "monorepo"],
+  "license": "MIT"
+}

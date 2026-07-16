@@ -1,0 +1,11 @@
+{
+  "name": "@demonorepo-pnpm/config",
+  "version": "1.0.0",
+  "description": "Shared configuration for the demonorepo-pnpm monorepo",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["config", "monorepo"],
+  "license": "MIT"
+}

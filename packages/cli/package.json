@@ -1,0 +1,18 @@
+{
+  "name": "@demonorepo-pnpm/cli",
+  "version": "1.0.0",
+  "description": "CLI tool for the demonorepo-pnpm monorepo",
+  "main": "index.js",
+  "bin": {
+    "demonorepo": "./index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["cli", "monorepo"],
+  "license": "MIT",
+  "dependencies": {
+    "@demonorepo-pnpm/core": "workspace:*",
+    "@demonorepo-pnpm/utils": "workspace:*"
+  }
+}
