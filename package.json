@@ -6,7 +6,9 @@
   "scripts": {
     "build": "pnpm -r build",
     "test": "pnpm -r test",
-    "lint": "pnpm -r lint"
+    "lint": "pnpm -r lint",
+    "test:release": "node ../../monorepo-semantic-release/bin/monorepo-semantic-release.js",
+    "test:release:dry-run": "node ../../monorepo-semantic-release/bin/monorepo-semantic-release.js --dry-run"
   },
   "engines": {
     "node": ">=18",
