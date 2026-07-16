@@ -1,0 +1,14 @@
+{
+  "name": "@demonorepo-pnpm/core",
+  "version": "1.0.0",
+  "description": "Core library for the demonorepo-pnpm monorepo",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["core", "monorepo"],
+  "license": "MIT",
+  "dependencies": {
+    "@demonorepo-pnpm/utils": "workspace:*"
+  }
+}
