@@ -15,10 +15,16 @@ function printUsage() {
   console.log('Commands:');
   console.log('  greet [name]         Print a greeting');
   console.log('  log [message...]     Print a formatted log message');
+  console.log('  help                 Show this help text');
   console.log('  version              Show CLI version');
 }
 
 switch (command) {
+  case 'help':
+  case '-h':
+  case '--help':
+    printUsage();
+    break;
   case 'version':
   case '-v':
   case '--version':
