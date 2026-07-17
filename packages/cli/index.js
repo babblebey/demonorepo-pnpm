@@ -6,7 +6,7 @@ const { formatMessage } = require('@demonorepo-pnpm/utils');
 
 const [, , command, ...args] = process.argv;
 
-const core = createCore({ name: args[0] || 'somebody' });
+const core = createCore({ name: args[0] || 'world' });
 
 switch (command) {
   case 'greet':
