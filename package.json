@@ -12,11 +12,9 @@
     "test:release:dry-run": "node ../../monorepo-semantic-release/bin/monorepo-semantic-release.js --dry-run",
     "test:release:dry-run:with-env": "node --env-file=.env ../../monorepo-semantic-release/bin/monorepo-semantic-release.js --dry-run"
   },
-  "engines": {
-    "pnpm": ">=8"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/babblebey/demonorepo-pnpm.git"
-  }
+  },
+  "packageManager": "pnpm@11.13.1"
 }
