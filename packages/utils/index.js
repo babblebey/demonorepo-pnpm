@@ -16,7 +16,7 @@ function formatMessage(prefix, message) {
  * @returns {string}
  */
 function greet(name) {
-  return `Hello, ${name}!`;
+  return `Hello there, ${name}!`;
 }
 
 module.exports = { formatMessage, greet };
