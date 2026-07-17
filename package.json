@@ -13,7 +13,6 @@
     "test:release:dry-run:with-env": "node --env-file=.env ../../monorepo-semantic-release/bin/monorepo-semantic-release.js --dry-run"
   },
   "engines": {
-    "node": ">=18",
     "pnpm": ">=8"
   },
   "repository": {
