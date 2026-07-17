@@ -2,7 +2,7 @@
 
 const DEFAULT_CONFIG = {
   logLevel: 'info',
-  timeout: 5000,
+  timeout: 4000,
   retries: 3,
 };
 
