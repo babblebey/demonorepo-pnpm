@@ -15,5 +15,9 @@
   "engines": {
     "node": ">=18",
     "pnpm": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babblebey/demonorepo-pnpm.git"
   }
 }
