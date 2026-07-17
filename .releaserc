@@ -4,7 +4,7 @@
     [
       "@semantic-release/github",
       {
-        successComment: ":tada: This PR is included in ${nextRelease.gitTag} :tada:\n\nThe release is available on [GitHub release](${releases?.[0]?.url || ''})\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:",
+        successComment: ":tada: This PR is included in **${nextRelease.gitTag}** :tada:\n\nThe release is available on [GitHub release](${releases?.[0]?.url || ''})\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:",
       },
     ],
   ]
