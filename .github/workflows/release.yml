@@ -25,6 +25,6 @@ jobs:
           cache: pnpm
           node-version: lts/*
       - run: pnpm install --frozen-lockfile
-      - run: pnpm --package=@semantic-release/changelog@beta --package=@semantic-release/git@beta dlx @babblebey/monorepo-semantic-release@beta
+      - run: pnpm dlx --package=@semantic-release/changelog@beta --package=@semantic-release/git@beta @babblebey/monorepo-semantic-release@beta
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
